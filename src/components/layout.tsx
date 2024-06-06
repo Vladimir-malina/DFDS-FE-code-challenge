@@ -14,7 +14,7 @@ export default function Layout({ children }: Props) {
           <Image src="/logo.svg" alt="DFDS logo" width={56} height={18} />
         </div>
       </nav>
-      <main className="mx-auto flex w-full max-w-screen-xl items-center justify-center px-2">
+      <main className="mx-auto flex flex-col w-full max-w-screen-xl items-center justify-center px-2">
         <NextThemesProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </NextThemesProvider>
